@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+.heading{
+	background-color: #F1F1F1;
+	text-align: center;
+	height: 180px;
+	font-size: 30px;
+	padding-top: 45px;
+}
+.mani-article{
+	width: 100%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.first-div{
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 30%;
+	text-align: justify;
+}
+.second-div{
+	float: left;
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	width: 30%;
+	text-align: justify;
+}
+.third-div{
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 30%;
+	text-align: justify;
+}
+@media only screen and (max-width: 597px) {
+  .first-div{
+	width: 100%;
+  }
+  .second-div{
+	width: 100%;  
+  }
+  .third-div{
+	width: 100%;  
+  }
+}
+@media only screen and (max-width: 995px) {
+  .first-div{
+	width: 100%;
+  }
+  .second-div{
+	width: 100%;  
+  }
+  .third-div{
+	width: 100%; 
+	margin-top: 0px;
+  }
+}
